@@ -1,0 +1,53 @@
+@import url('./index.css');
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto;
+   
+}
+.first-heading {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+} 
+h1 {
+    color: #2c3e50;
+}
+h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+.text-data {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.list-items, .unorderlist-items {
+    padding-left: 20px;
+}
+.list-items li, .unorderlist-items li {
+    margin-bottom: 10px;
+}
+.list-items u {
+    font-weight: bold;
+    text-decoration: none;
+    color: #27ae60;
+}
+.unorderlist-items strong {
+    color: #27ae60;
+}
+.challenges, .conclusion {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
