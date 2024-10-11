@@ -21,8 +21,21 @@ body {
    width: 120px;
    height: auto;
    padding: 10px;
-   margin: 15px;
+   
 }
+
+.author-info  > figcaption{
+   margin-left: 25px;
+   padding: 10px;
+ }
+
+ .author-info  > button{
+    margin-left: 25px;
+    padding: 10px;
+    color: black;
+    border-radius: 15px 50px 30px;
+  }
+ 
 
 
 h1 {
