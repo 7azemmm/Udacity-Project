@@ -1,3 +1,7 @@
+@import "./navbar.css";
+@import "./footer.css";
+@import "./main-content.css";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,75 +14,10 @@ html, body {
 }
 
 body {
-    display: flex;
+    display: grid;
     flex-direction: column; 
     font-family: Arial, sans-serif;
 }
 
-header {
-    background: #333;
-    color: white;
-}
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin-left: 1rem;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.hero {
-    background: #f4f4f4;
-    padding: 2rem;
-    text-align: center;
-}
-
-.hero > img{
-    margin: 10px;
-    width: 280px;
-    height: 300px;
-    padding: 10px;
-}
-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    padding: 2rem;
-    flex: 1; 
-}
-
-.posts {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.post {
-    background: white;
-    padding: 1.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
 
